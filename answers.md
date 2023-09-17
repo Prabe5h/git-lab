@@ -47,3 +47,18 @@ root@SAM:~/2400/Labs/lab2/git-lab# git commit -m "Initial commit"
  ans 7- nothing to commit 
 
  ans 8 commit 4674887b409b8f61865b44c42a16143754c07d42 (HEAD -> main) Author: prabesh malla pm628923@ohio.edu  Date: Tue Sep 17 
+
+ans 9 On branch main
+nothing to commit, working tree clean
+ans 10 No 
+ans 11 Everything up-to-date
+Answer 11
+The push gets rejected with the following output:
+
+To github.com:Prabe5h/git-lab.git ! [rejected] main -> main (fetch first) error: failed to push some refs to 'github.com:Prabe5h/git-lab.git' hint: Updates were rejected because the remote contains work that you do hint: not have locally. This is usually caused by another repository pushing hint: to the same ref. You may want to first integrate the remote changes hint: (e.g., 'git pull ...') before pushing again. hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Answer 12
+Yes, the README.md file is now updated and up to date with the file on remote repository
+
+Answer 13
+. .. .git .gitignore README.md
